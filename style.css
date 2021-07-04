@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.heading-name{
+    font-size: 50px;
+}
+
+.name-desing{
+    color: lightsalmon;
+}
+
+section{
+    display: flex;
+}
+
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 50%;
+    margin: 0% 5%;
+}
+
+#profile-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+
+#profile-button:hover {
+    opacity: 90%;
+}
+
+#profile-photo{
+    width: 85%;
+    height:85%;
+    margin-top: 45px;
+}
