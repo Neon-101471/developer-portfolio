@@ -13,6 +13,7 @@ body{
 
 section{
     display: flex;
+    padding-bottom:100px;
 }
 
 .first-section{
@@ -25,7 +26,17 @@ section{
     margin: 0% 5%;
 }
 
-#profile-button{
+#paragraph-section1{
+    padding-right: 5px;
+    margin-bottom: 25px;
+}
+
+#paragraph-section2{
+    padding-right: 20px;
+    margin-bottom: 25px;
+}
+
+.profile-button{
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -38,8 +49,19 @@ section{
     opacity: 90%;
 }
 
-#profile-photo{
+#profile-photo1{
     width: 85%;
     height:85%;
     margin-top: 45px;
+}
+
+#profile-photo2{
+    width: 85%;
+    height: 100%;
+}
+
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
