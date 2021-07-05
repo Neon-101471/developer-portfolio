@@ -11,7 +11,7 @@ body{
     color: lightsalmon;
 }
 
-section{
+.flexible-section{
     display: flex;
     padding-bottom:100px;
 }
@@ -65,3 +65,42 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+#experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.identity-developer{
+    font-size: 40px;
+}
+
+.period-span{
+    color: lightsalmon;
+}
+
+.experience-item{
+    width: 44%;
+    margin-left: 4%;
+    margin-right: 2%;
+    padding: 10px;
+    box-shadow: 10px 10px 25px lightblue;
+    border-radius: 10px;
+}
+
+#full-stack-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(253, 177, 147), tomato);
+    border-image-slice: 1;
+}
+
+#front-end-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
