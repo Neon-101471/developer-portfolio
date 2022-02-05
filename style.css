@@ -5,6 +5,8 @@ body{
 
 .heading-name{
     font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .name-desing{
@@ -13,11 +15,11 @@ body{
 
 .flexible-section{
     display: flex;
-    padding-bottom:100px;
+    padding-bottom:50px;
 }
 
 .first-section{
-    background-image: url(images/top-banner.png);
+    background-image: url(Images/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -27,13 +29,14 @@ body{
 }
 
 #paragraph-section1{
-    padding-right: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 #paragraph-section2{
     padding-right: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 .profile-button{
@@ -60,16 +63,25 @@ body{
     height: 100%;
 }
 
+.dream-big{
+    font-size: 40px;
+}
+
 .second-section{
-    background-image: url(images/dream-bg.png);
+    background-image: url(Images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
 
 #experience-area{
-    background-image: url(images/exp-bg.png);
+    background-image: url(Images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.experience{
+    margin-left: 20px;
+    margin-bottom: 25px;
 }
 .identity-developer{
     font-size: 40px;
@@ -86,11 +98,14 @@ body{
     padding: 10px;
     box-shadow: 10px 10px 25px lightblue;
     border-radius: 10px;
+    /* -moz-box-shadow: 0 0 5px 5px lightblue;
+    -webkit-box-shadow: 0 0 5px 5px lightblue;
+    box-shadow: 0 0 5px 5px lightblue; */
 }
 
 #full-stack-developer{
     border-left: 8px solid;
-    border-image: linear-gradient(rgb(253, 177, 147), tomato);
+    border-image: linear-gradient(lightsalmon, tomato);
     border-image-slice: 1;
 }
 
@@ -103,4 +118,3 @@ body{
 footer p{
     text-align: center;
 }
-
